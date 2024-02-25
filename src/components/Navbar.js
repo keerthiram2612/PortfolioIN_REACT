@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import "./Navbar.css"
 import React from 'react'
+import {FaBars} from "react-icons/fa"
 
 export default function Navbar() {
   return (
@@ -22,6 +23,9 @@ export default function Navbar() {
             <Link to="/project">Project</Link>
         </li>
       </ul>
+      <div className="hamburger">
+        <FaBars size ={20} style={{color:"white"}}/>
+      </div>
     </div>
   )
 }
