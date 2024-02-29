@@ -3,7 +3,7 @@ import IntroImg from "../assets/intro-bg.jpg"
 import React from 'react'
 import { Link } from "react-router-dom"
 
-export default function HeroImage() {
+export default function HeroImg() {
   return (
     <div className="hero">
        <div className="mask">

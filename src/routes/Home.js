@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeroImage from "../components/HeroImage";
+import HeroImg from '../components/HeroImg';
 
 export default function Home() {
   return (
     <div>
      <Navbar/>
-     <HeroImage/>
+      <HeroImg/>
     </div>
   )
 }
