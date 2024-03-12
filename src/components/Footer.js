@@ -10,9 +10,8 @@ export default function Footer() {
         <div className="left">
             <div className="location">
                 <FaHome size={25} style={{color:"white",marginRight:"2rem"}}/>
-                <p>72 A Ambedkar nagar,</p>
-                <br/>
-                <p>Chennai.</p>
+                <p>72 A Ambedkar nagar,
+                Chennai.</p>
                 
             </div>
             <div className="phone">
