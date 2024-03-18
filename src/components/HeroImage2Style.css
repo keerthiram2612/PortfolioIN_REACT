@@ -11,11 +11,12 @@
     background-size: cover;
     background-position: center top;
     height: 100%;
-    width: 100%;
+    width: 60%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
+    
 }
 
 .heading{
@@ -32,7 +33,7 @@
 }
 
 .hero-img p{
-    font-size: 4rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -40,4 +41,6 @@
     .hero-img h1{
         font-size: 2rem;
     }
+    
 }
+
