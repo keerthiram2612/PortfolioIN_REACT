@@ -1,0 +1,29 @@
+.miracle{
+    width: 250px;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left:0;
+    border-radius: 10px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+    width: 100%;
+    background-color: black;
+    height: 60vh;
+    position: relative;
+}
+.hero:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+

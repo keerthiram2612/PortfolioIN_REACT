@@ -35,7 +35,7 @@ export default function Navbar() {
             <Link to="/project">Project</Link>
         </li>
         <li>
-            <Link to="/certificate">Certificate</Link>
+            <Link to="/certificate">Certificates</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
