@@ -5,6 +5,7 @@ import Contact from "./routes/Contact"
 import Project from "./routes/Project"
 import About from "./routes/About"
 import {Routes,Route} from "react-router-dom"
+import Certificate from "./routes/Certificate"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path = "/contact" element ={<Contact/>}/>
       <Route path = "/project" element ={<Project/>}/>
       <Route path = "/about" element ={<About/>}/>
+      <Route path = "/certificate" element ={<Certificate/>}/>
     </Routes>
    </>
   );

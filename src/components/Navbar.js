@@ -34,6 +34,9 @@ export default function Navbar() {
         <li>
             <Link to="/project">Project</Link>
         </li>
+        <li>
+            <Link to="/certificate">Certificate</Link>
+        </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click? (<FaTimes size={20} style={{color:"#fff"}}/>):(

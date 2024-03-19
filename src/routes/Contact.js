@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div>
     <Navbar/>
-     <HeroImage2 heading = "" text = ""/>
+     <HeroImage2 heading = "CONTACT" text = "Lets have a chat "/>
      <Footer/>
     </div>
   )
