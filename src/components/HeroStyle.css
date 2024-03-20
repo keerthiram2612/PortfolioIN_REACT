@@ -1,29 +1,33 @@
 .miracle{
-    width: 250px;
-    height: 50%;
+    width: 300px;
+    height: 60%;
     position: absolute;
     top: 0;
     left:0;
     border-radius: 10px;
     background-position: center;
-    justify-content: center;
-    align-items: center;
+    transform: translate(100%);
+    margin-top: 250px;
+    margin-left: -200px;
+    opacity: 1;
+    border-style: dashed;
+    border-color: magenta;
     
+}
+.miracle:hover{
+     opacity: 0.6;
 }
 .hero{
     width: 100%;
-    background-color: black;
-    height: 60vh;
+    height: 250px;
     position: relative;
-}
-.hero:after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-color: black;
+    z-index: 1;
     
 }
+
+
+
+
 
 
