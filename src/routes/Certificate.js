@@ -10,7 +10,6 @@ export default function Certificate() {
     <div>
     <Navbar/>
     <Certification/>
-    <HeroImage2/>
     <Footer/>
     </div>
   )
