@@ -1,8 +1,35 @@
 .heading-c{
   text-align: center;
-  padding: 4rem 0 2rem 0;
 
 }
 .C-container{
-    
+   max-width: 1140px;
+   margin:auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding-bottom: 5rem;
+}
+.C-card{
+  background-color: black;
+  padding: 1.2rem 1rem;
+}
+.C-card img{
+  width: 100%;
+
+}
+.c-title{
+  color: white;
+  padding: 1rem 0;
+}
+.c-details p {
+  padding-bottom: 1rem ;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+@media(max-width:740px){
+  .C-container{
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
 }

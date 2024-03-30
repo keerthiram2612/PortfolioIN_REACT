@@ -10,10 +10,10 @@ export default function Certification() {
       <div className='C-container'>
         <div className='C-card'>
           <img src = {Miracle}alt='image'/>
-          <h2 className='c-title'>Certificates title</h2>
+          <h2 className='c-title'>Certificate Title</h2>
       
         <div className='c-details'>
-          <p>this is text</p>
+          <p>SHOOTING STAR FOUNDATION</p>
         </div>
         </div>
       </div>
