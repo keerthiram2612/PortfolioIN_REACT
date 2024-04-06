@@ -4,6 +4,9 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 export default function HeroImg() {
+  const handleClick=()=>{
+    window.location.href="https://github.com/keerthiram2612?tab=repositories"
+  }
   return (
     <div className="hero">
        <div className="mask">
@@ -13,8 +16,8 @@ export default function HeroImg() {
         <p>HI , I'M A FRONTEND DEVELOPER.</p>
         <h1>REACT DEVELOPER</h1>
         <div>
-            <Link to = "/project" className="btn">Projects</Link>
-            <Link to = "/contact" className="btn">Contact</Link>
+            <Link  onClick={handleClick} to = "/project" className="btn">Projects</Link>
+            <Link   to = "/contact" className="btn">Contact</Link>
         </div>
        </div>
     </div>
