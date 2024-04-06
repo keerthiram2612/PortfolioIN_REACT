@@ -13,8 +13,8 @@ export default function HeroImg() {
         <img className="intro-img" src = {IntroImg} alt = "IntroImg"/>
        </div>
        <div className="content">
-        <p>HI , I'M A FRONTEND DEVELOPER.</p>
-        <h1>REACT DEVELOPER</h1>
+        <p>HI , I'M KEERTHANA RAJARAM.</p>
+        <h1>FRONT-END DEVELOPER</h1>
         <div>
             <Link  onClick={handleClick} to = "/project" className="btn">Projects</Link>
             <Link   to = "/contact" className="btn">Contact</Link>
