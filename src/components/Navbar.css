@@ -25,6 +25,13 @@
 .nav-menu li a{
     font-size: 1.2rem;
     font-weight: 500;
+
+}
+.nav-menu li a:hover{
+    color: white;
+    margin-top: 2px;
+    border-bottom: solid;
+    
 }
 .hamburger{
     display: none;
