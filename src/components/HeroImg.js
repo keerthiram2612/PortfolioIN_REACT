@@ -17,7 +17,7 @@ export default function HeroImg() {
         <h1>FRONT-END DEVELOPER</h1>
         <div>
             <Link  onClick={handleClick} to = "/project" className="btn">Projects</Link>
-            <Link   to = "/contact" className="btn">Contact</Link>
+            <Link   to = "https://drive.google.com/file/d/1FYORRG_7zFDQQJEf30tZYdnsbl88iCwA/view?usp=sharing" className="btn">Resume</Link>
         </div>
        </div>
     </div>

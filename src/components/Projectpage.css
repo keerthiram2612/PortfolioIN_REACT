@@ -1,0 +1,26 @@
+.row1 img{
+    width: 80%;
+    height: 50%;
+    margin: 20px;
+    
+}
+.para h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.container{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    padding: 15px 30px;
+    border: 2px solid black;
+    background-color: yellow;
+    font-size: 20px;
+}
