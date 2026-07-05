@@ -7,10 +7,10 @@ import AboutContent from '../components/AboutContent'
 export default function About() {
   return (
     <div>
-     <Navbar/>
-     <HeroImage2 heading = "ABOUT" text = "Im a friendly Front-End Developer."/>
-     <AboutContent/>
-     <Footer/>
+      <Navbar />
+      <HeroImage2 heading="ABOUT" text="Im a friendly Web Developer." />
+      <AboutContent />
+      <Footer />
     </div>
   )
 }

@@ -5,30 +5,43 @@ import KprHack from "../assets/kprcertificate.jpg"
 import "./HeroStyle.css";
 
 export default function Certification() {
+  const certificates = [
+    {
+      title: "SHOOTING STAR FOUNDATION",
+      image: Miracle,
+      issuer: "Shooting Star Foundation",
+    },
+    {
+      title: "CODSOFT TECHNOLOGY",
+      image: Intern,
+      issuer: "CodSoft Technology",
+    },
+    {
+      title: "SOCIO-TECH HACKATHON",
+      image: KprHack,
+      issuer: "KPR Institute of Engineering & Technology",
+    },
+  ];
+
   return (
-    <div className='work-container'>
-      <h1 className='heading-c'>Certificates</h1>
-      <div className='C-container'>
-        <div className='C-card'>
-          <img src = {Miracle}alt='image'/>
-        <div className='c-details'>
-          <p>SHOOTING STAR FOUNDATION</p>
-        </div>
-        </div>
-        <div className='C2-card'>
-        <img src = {Intern}alt='image'/>
-        <div className='c-details'>
-          <p>CODSOFT TECHNOLOGY</p>
-        </div>
-        </div>
-        <div className='C3-card'>
-          <img src = {KprHack} alt='image'/>
-          <div className='c-details'>
-            <p>SOCIO-TECH HACKATHON</p>
-          </div>
-        </div>
-      </div>
+    <div className='certs-container'>
+      <h1 className='heading-c gradient-text'>Certificates</h1>
+      <p className='certs-sub'>Recognitions and technical milestones achieved</p>
       
+      <div className='cert-grid'>
+        {certificates.map((cert, index) => (
+          <div className='cert-card glass-card' key={index}>
+            <div className='cert-img-wrapper'>
+              <img src={cert.image} alt={cert.title} className="cert-img" />
+            </div>
+            <div className='cert-details'>
+              <h3>{cert.title}</h3>
+              <p className='cert-issuer'>{cert.issuer}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
+

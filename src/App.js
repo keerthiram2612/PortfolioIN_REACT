@@ -6,6 +6,7 @@ import Project from "./routes/Project"
 import About from "./routes/About"
 import {Routes,Route} from "react-router-dom"
 import Certificate from "./routes/Certificate"
+import Experience from "./routes/Experience"
 
 function App() {
   return (
@@ -16,9 +17,11 @@ function App() {
       <Route path = "/project" element ={<Project/>}/>
       <Route path = "/about" element ={<About/>}/>
       <Route path = "/certificate" element ={<Certificate/>}/>
+      <Route path = "/experience" element ={<Experience/>}/>
     </Routes>
    </>
   );
 }
 
 export default App;
+

@@ -29,13 +29,16 @@ export default function Navbar() {
             <Link to="/about">About</Link>
         </li>
         <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/experience">Experience</Link>
         </li>
         <li>
             <Link to="/project">Project</Link>
         </li>
         <li>
             <Link to="/certificate">Certificates</Link>
+        </li>
+        <li>
+            <Link to="/contact">Contact</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>

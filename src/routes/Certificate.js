@@ -8,10 +8,11 @@ import HeroImage2 from '../components/HeroImage2'
 export default function Certificate() {
   return (
     <div>
-    <Navbar/>
-    <HeroImage2/>
-    <Certification/>
-    <Footer/>
+      <Navbar/>
+      <HeroImage2 heading="CERTIFICATES" text="My achievements, professional credentials, and training certifications."/>
+      <Certification/>
+      <Footer/>
     </div>
   )
 }
+
