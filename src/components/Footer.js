@@ -73,7 +73,7 @@ export default function Footer() {
             about it.
           </h2>
           <div className="cta-actions">
-            <a className="btn" href="#contact" onClick={goToContact}>
+            <a className="btn" href="/contact" onClick={goToContact}>
               Contact me
             </a>
             <a className="link-quiet" href="#contact" onClick={goToContact}>
